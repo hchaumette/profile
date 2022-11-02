@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css2?family=Hind+Vadodara:wght@300&family=Maitree:wght@300&family=Martel+Sans:wght@300&display=swap');
+
+@media (min-width: 720px) {
+  /* Pour un écran < 960px, cette classe CSS s'applique */
+  .container {
+    width: 700px;
+  }
+}
+
+@media (max-width: 720px) {
+  /* Pour un écran < 720px, cette classe CSS s'applique */
+  .container {
+    width: 500px;
+  }
+}
+
+@media (max-width: 540px) {
+  /* Pour un écran < 540px, cette classe CSS s'applique */
+  .container {
+    width: 300px;
+  }
+}
+
+body{
+  background-color: #eee0cb;
+  font-family: 'Hind Vadodara', sans-serif;
+  font-size: 20px;
+  line-height: 20px;
+  color: #2F242C;
+}
+
+h1{
+  font-family: 'Martel Sans', sans-serif;
+  font-size: 30px;
+  line-height: 30px;
+}
+
+h2{
+  font-family: 'Maitree', serif;
+}
+
+a{
+  color: #618985;
+}
+
+a:hover{
+  color: #9381FF;
+}
+
+img{
+  border-radius: 3px;
+  width: 120px;
+}
+
+button{
+  font-weight: bold;
+  padding: 10px;
+  background-color: #618985;
+  border-radius: 5px;
+  color: white;
+  box-shadow: 2px 2px 5 px 1px rgba(5, 5, 5, 0.1);
+}
+
+button:hover{
+  background-color: rgb(2, 5, 34);
+}
+
+.container{
+  margin: 0 auto;
+}
+
+.card{
+  text-align: center;
+  background-color: white;
+  padding: 20px;
+  margin: 20px;
+  border-radius: 3px;
+  border: 1px solid lightgrey;
+  box-shadow: 2px 2px 5 px 1px rgba(5, 5, 5, 0.1);
+}
+
+.image_circle{
+  border-radius: 50%;
+}
+
+.remove_padding{
+  padding-left: 0;
+}
+
+.list-inline > li {
+  display: inline-block;
+  padding: 0px 20px;
+  list-style:  none;
+}
